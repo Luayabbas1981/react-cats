@@ -1,3 +1,7 @@
+.cats{
+  padding: 4vh;
+}
+
 .cats ul {
   display: flex;
   flex-wrap: wrap;
@@ -6,8 +10,8 @@
   justify-content: center;
 }
 img {
-  width: 300px;
-  height: 300px;
+  width: 17vw;
+  height: 32vh;
   border-radius: 50%;
   opacity: 1;
 }
