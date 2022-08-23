@@ -62,9 +62,15 @@ button:hover {
   .cat-info {
     font-size: 3.5vw;
   }
+  .nav-link{
+    font-size: 5.7vw;
+   
+  }
+  
+  
 }
 .nav-link{
-  font-size: 5.7vw;
+  font-size: 1.5vw;
   color: rgb(103, 152, 29);
   font-weight: bold;
   text-decoration: none;
