@@ -14,8 +14,9 @@ function App() {
 
         <Router>
           <Routes>
-          <Route path={'/' } element={<Cats/>}/>
-          <Route path={'/cats' } element={<Cats/>}/>
+          <Route path={'/'} element={<Cats/>}/>
+          <Route path={'/react-cats'} element={<Cats/>}/>
+          <Route path={'/cats'} element={<Cats/>}/>
           <Route path={'/cats/:catinfo'} element={<Cats/> }/>
           </Routes>
         </Router>
