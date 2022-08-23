@@ -10,6 +10,7 @@ function Cats() {
       fontWeight: isActive ? "bold" : "",
       color: isActive ? "red" : "green",
       textDecoration: "none",
+     
     };
   };
 

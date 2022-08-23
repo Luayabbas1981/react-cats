@@ -1,4 +1,4 @@
-.cats{
+.cats {
   padding: 4vh;
 }
 
@@ -45,4 +45,21 @@ button {
 
 button:hover {
   background-color: rgb(250, 86, 114);
+}
+@media (max-width: 767px) {
+  img {
+    width: 50vw;
+    height: 32vh;
+  }
+  .cats ul {
+    row-gap: 6vh;
+  }
+  button {
+    width: 25%;
+    height: 3vh;
+    font-size: 2.5vw;
+  }
+  .cat-info {
+    font-size: 3.5vw;
+  }
 }
