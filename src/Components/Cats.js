@@ -29,7 +29,7 @@ function Cats() {
     {
       name: "jaguar",
       sex: "male",
-      age: "1 yearsh",
+      age: "1 year",
       color: "black",
       eyes: "yellow",
       sound: require("../sounds/cat3.mp3"),
@@ -38,7 +38,7 @@ function Cats() {
     {
       name: "kora",
       sex: "male",
-      age: "3 year",
+      age: "3 years",
       color: "gray",
       eyes: "blue",
       sound: require("../sounds/cat2.mp3"),
