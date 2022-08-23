@@ -18,31 +18,32 @@ function Cats() {
   const cats = [
     {
       name: "sera",
-      sex:"female",
+      sex: "female",
       age: "1 month",
       color: "white-black",
       eyes: "brown",
       sound: require("../sounds/sound .wav"),
       imgsrc: require("../images/cat1.jpeg"),
     },
-   
+
     {
       name: "jaguar",
-      sex:"male",
+      sex: "male",
       age: "1 yearsh",
       color: "black",
       eyes: "yellow",
       sound: require("../sounds/cat3.mp3"),
       imgsrc: require("../images/cat3.jpeg"),
-    }, {
+    },
+    {
       name: "kora",
-      sex:"male",
+      sex: "male",
       age: "3 year",
       color: "gray",
       eyes: "blue",
       sound: require("../sounds/cat2.mp3"),
       imgsrc: require("../images/cat2.jpeg"),
-    }
+    },
   ];
   function playSound(src) {
     const sound = new Howl({
@@ -58,7 +59,6 @@ function Cats() {
           {cats.map((cat) => {
             return (
               <li>
-              
                 <img
                   className={
                     catinfo === cat.name
@@ -77,19 +77,21 @@ function Cats() {
                 {catinfo === cat.name && (
                   <div className="cat-info ">
                     <div>{`Name: ${cat.name}`}</div>
-                    <div>{`Name: ${cat.sex}`}</div>
+                    <div>{`Sex: ${cat.sex}`}</div>
                     <div>{`Age: ${cat.age}`}</div>
                     <div>{`Color: ${cat.color}`}</div>
                     <div>{`Eyes-Color: ${cat.eyes}`}</div>
 
-                    <button onClick={() => playSound(cat.sound)}><i class="fa-solid fa-volume-high"></i></button>
+                    <button onClick={() => playSound(cat.sound)}>
+                      <i class="fa-solid fa-volume-high"></i>
+                    </button>
 
                     <button
                       onClick={() => {
                         navigate("/");
                       }}
                     >
-                     <i class="fa-solid fa-house"></i>
+                      <i class="fa-solid fa-house"></i>
                     </button>
                   </div>
                 )}
