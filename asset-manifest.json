@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-cats/static/css/main.7af49797.css",
-    "main.js": "/react-cats/static/js/main.78c2eaed.js",
+    "main.css": "/react-cats/static/css/main.127d852c.css",
+    "main.js": "/react-cats/static/js/main.e8f1c91a.js",
     "static/media/sound .wav": "/react-cats/static/media/sound .7c04f824d21a13cbe7bc.wav",
     "static/media/cat2.mp3": "/react-cats/static/media/cat2.f16842aa6925461206b6.mp3",
     "static/media/cat3.mp3": "/react-cats/static/media/cat3.029c8481d8be668b9af1.mp3",
     "static/media/cat2.jpeg": "/react-cats/static/media/cat2.5ba597e68bc7e6be853a.jpeg",
     "index.html": "/react-cats/index.html",
-    "main.7af49797.css.map": "/react-cats/static/css/main.7af49797.css.map",
-    "main.78c2eaed.js.map": "/react-cats/static/js/main.78c2eaed.js.map"
+    "main.127d852c.css.map": "/react-cats/static/css/main.127d852c.css.map",
+    "main.e8f1c91a.js.map": "/react-cats/static/js/main.e8f1c91a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7af49797.css",
-    "static/js/main.78c2eaed.js"
+    "static/css/main.127d852c.css",
+    "static/js/main.e8f1c91a.js"
   ]
 }
