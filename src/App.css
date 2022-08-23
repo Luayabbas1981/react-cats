@@ -1,0 +1,14 @@
+
+.App{
+    height: 100vh;
+    text-align: center;
+    background-color: #fff1f7;
+    font-family: 'Lemonada', cursive;
+
+
+    user-select: none;
+}
+h1{
+    color: rgb(199, 6, 199);
+    padding: 2vh;
+}
