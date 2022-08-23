@@ -63,3 +63,14 @@ button:hover {
     font-size: 3.5vw;
   }
 }
+.nav-link{
+  font-size: 5.7vw;
+  color: rgb(103, 152, 29);
+  font-weight: bold;
+  text-decoration: none;
+}
+.active{
+  color: rgb(237, 4, 187);
+  font-weight: bold;
+  text-decoration: none;
+}

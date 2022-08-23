@@ -4,15 +4,15 @@ import React from "react";
 import { NavLink, useParams, useNavigate } from "react-router-dom";
 
 function Cats() {
-  const navStyle = ({ isActive }) => {
+ /*  const navStyle = ({ isActive }) => {
     return {
       fontSize: isActive ? "1.6vw" : "1.2vw",
       fontWeight: isActive ? "bold" : "",
       color: isActive ? "red" : "green",
       textDecoration: "none",
-     
+    
     };
-  };
+  }; */
 
   const { catinfo } = useParams();
   const navigate = useNavigate();
@@ -72,7 +72,7 @@ function Cats() {
                   alt="cat"
                 />
 
-                <NavLink style={navStyle} to={`/cats/${cat.name}`}>
+                <NavLink className={"nav-link"} to={`/cats/${cat.name}`}>
                   {cat.name}
                 </NavLink>
                 {catinfo === cat.name && (
