@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-cats/static/css/main.8718b076.css",
+    "main.js": "/react-cats/static/js/main.f7fc2442.js",
+    "static/media/sound .wav": "/react-cats/static/media/sound .7c04f824d21a13cbe7bc.wav",
+    "static/media/cat2.mp3": "/react-cats/static/media/cat2.f16842aa6925461206b6.mp3",
+    "static/media/cat3.mp3": "/react-cats/static/media/cat3.029c8481d8be668b9af1.mp3",
+    "static/media/cat2.jpeg": "/react-cats/static/media/cat2.5ba597e68bc7e6be853a.jpeg",
+    "index.html": "/react-cats/index.html",
+    "main.8718b076.css.map": "/react-cats/static/css/main.8718b076.css.map",
+    "main.f7fc2442.js.map": "/react-cats/static/js/main.f7fc2442.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8718b076.css",
+    "static/js/main.f7fc2442.js"
+  ]
+}
