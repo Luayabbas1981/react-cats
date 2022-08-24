@@ -60,6 +60,7 @@ function Cats() {
           {cats.map((cat) => {
             return (
               <li>
+                 <NavLink className={"nav-link"} to={`/cats/${cat.name}`}>
                 <img
                   className={
                     catinfo === cat.name
@@ -71,10 +72,13 @@ function Cats() {
                   src={cat.imgsrc}
                   alt="cat"
                 />
-
-                <NavLink className={"nav-link"} to={`/cats/${cat.name}`}>
-                  {cat.name}
+                   <div >
+                {cat.name}
+                </div>
+               
+                
                 </NavLink>
+               
                 {catinfo === cat.name && (
                   <div className="cat-info ">
                     <div>{`Name: ${cat.name}`}</div>

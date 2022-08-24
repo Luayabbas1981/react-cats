@@ -75,6 +75,7 @@ button:hover {
   text-decoration: none;
 }
 .active{
+  font-size: 1.5vw;
   color: rgb(237, 4, 187);
   font-weight: bold;
   text-decoration: none;
