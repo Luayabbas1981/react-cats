@@ -1,6 +1,4 @@
-.cats {
-  padding: 4vh;
-}
+
 
 .cats ul {
   display: flex;
@@ -8,6 +6,7 @@
   column-gap: 5rem;
   list-style: none;
   justify-content: center;
+
 }
 img {
   width: 17vw;
