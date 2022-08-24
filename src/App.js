@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useEffect} from 'react';
 import "./App.css"
 import { BrowserRouter as Router ,Routes, Route } from 'react-router-dom';
 import Cats from './Components/Cats';
@@ -7,6 +7,10 @@ import Cats from './Components/Cats';
 
 
 function App() {
+useEffect(()=>{
+  document.body.style.backgroundColor="#fff1f7"
+},[])
+
   return (
     <div className="App">
       <h1>My Cats</h1>
