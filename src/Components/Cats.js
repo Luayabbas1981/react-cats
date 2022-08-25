@@ -72,7 +72,7 @@ function Cats() {
                   src={cat.imgsrc}
                   alt="cat"
                 />
-                   <div >
+                   <div className="cat-title">
                 {cat.name}
                 </div>
                
