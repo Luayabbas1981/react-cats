@@ -13,7 +13,7 @@ useEffect(()=>{
 
   return (
     <div className="App">
-      <h1>My Cats</h1>
+      <h2>My Cats</h2>
 
 
         <Router>
